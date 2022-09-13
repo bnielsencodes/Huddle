@@ -17,6 +17,19 @@ module.exports = {
         openSans: ["Open Sans", "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
       },
+      spacing: {
+        "header-p": "448px",
+      },
+    },
+    screens: {
+      md: "768px",
+      // => @media (min-width: 768px) { ... }
+
+      lg: "1024px",
+      // => @media (min-width: 1024px) { ... }
+
+      xl: "1440px",
+      // => @media (min-width: 1440px) { ... }
     },
   },
   plugins: [],
