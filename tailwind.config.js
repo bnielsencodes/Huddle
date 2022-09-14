@@ -11,14 +11,15 @@ module.exports = {
         "primary-pink": "hsl(322, 100%, 66%)",
         "light-pink": "hsl(321, 100%, 78%)",
         "light-red": "hsl(0, 100%, 63%)",
-        "text-grey": "#7D8E9B",
+        "custom-grey": "#7D8E9B",
       },
       fontFamily: {
         openSans: ["Open Sans", "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
       },
       spacing: {
-        "header-p": "448px",
+        "medium-p": "448px",
+        "large-p": "468px",
       },
     },
     screens: {
