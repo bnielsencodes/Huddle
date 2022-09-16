@@ -622,6 +622,10 @@ video {
   display: flex;
 }
 
+.table{
+  display: table;
+}
+
 .hidden{
   display: none;
 }
@@ -874,6 +878,10 @@ video {
 .shadow-light-pink{
   --tw-shadow-color: hsl(321, 100%, 78%);
   --tw-shadow: var(--tw-shadow-colored);
+}
+
+.outline{
+  outline-style: solid;
 }
 
 .drop-shadow-lg{
