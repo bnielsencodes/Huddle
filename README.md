@@ -1,3 +1,3 @@
 # Huddle
  Product landing page with curved sections
-(https://imgur.com/Rm7JvMI)
+![alt text](assets/screenshots/smartmockups_l849vw4z.png?raw=true)
