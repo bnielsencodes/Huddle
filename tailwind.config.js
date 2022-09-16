@@ -20,6 +20,7 @@ module.exports = {
       spacing: {
         "medium-p": "448px",
         "large-p": "468px",
+        "xl-p": "525px",
       },
     },
     screens: {
