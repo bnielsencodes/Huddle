@@ -6,6 +6,6 @@ ScrollReveal().reveal(".delay-700", { delay: 700 });
 ScrollReveal().reveal(".enter-top", { origin: "top" });
 ScrollReveal().reveal(".enter-right", { origin: "right" });
 ScrollReveal().reveal(".enter-left", { origin: "left" });
+ScrollReveal().reveal(".distance-135", { distance: "135px" });
 ScrollReveal().reveal(".distance-350", { distance: "350px" });
-ScrollReveal().reveal(".duration-500", { duration: 1500 });
-ScrollReveal().reveal(".ease", { easing: "ease" });
+ScrollReveal().reveal(".ease", { easing: "ease-out" });

@@ -11,16 +11,14 @@
       crossorigin="anonymous"
     ></script>
     <!-- SCROLL REVEAL -->
-    <script src="https://unpkg.com/scrollreveal"></script>
-
-    <!-- <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script> -->
-    <script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <!-- <script>
       ScrollReveal({ reset: true });
-    </script>
+    </script> -->
     <title>Huddle</title>
   </head>
 
-  <body class="font-openSans">
+  <body class="font-openSans scroll-smooth">
     <!-- *****************************
       ********************************
       NAVIGATION
@@ -143,7 +141,7 @@
           class="pt-16 text-center lg:flex lg:items-center lg:px-28 lg:gap-16 lg:pb-10 xl:w-xl-container xl:pt-20 xl:px-0 xl:pb-11 xl:mx-auto"
         >
           <div
-            class="w-full px-14 mb-20 lg:order-1 lg:flex-grow-1 lg:flex-shrink-1 lg:w-1/2 lg:px-0 lg:mb-0 delay-250 enter-right distance-350 ease"
+            class="w-full px-14 mb-20 lg:order-1 lg:flex-grow-1 lg:flex-shrink-1 lg:w-1/2 lg:px-0 lg:mb-0 delay-250 enter-right distance-135 ease"
           >
             <img
               class="lg:mx-auto"
@@ -152,7 +150,7 @@
             />
           </div>
           <div
-            class="lg:text-left lg:flex-grow-1 lg:flex-shrink-1 lg:w-1/2 lg:px-0 delay-250 enter-left distance-350 ease"
+            class="lg:text-left lg:flex-grow-1 lg:flex-shrink-1 lg:w-1/2 lg:px-0 delay-250 enter-left distance-135 ease"
           >
             <h2 class="mb-5 font-poppins text-xl lg:text-3xl xl:text-4xl">
               Grow Together
@@ -192,7 +190,7 @@
           class="text-center mb-28 lg:flex lg:items-center lg:px-28 lg:gap-16 lg:mb-24 xl:w-xl-container xl:gap-32 xl:px-0 xl:pb-11 xl:mx-auto"
         >
           <div
-            class="w-full px-14 mb-24 lg:flex-grow-1 lg:flex-shrink-1 lg:w-1/2 lg:px-0 lg:mb-0 delay-250 enter-left distance-350 ease"
+            class="w-full px-14 mb-24 lg:flex-grow-1 lg:flex-shrink-1 lg:w-1/2 lg:px-0 lg:mb-0 delay-250 enter-left distance-135 ease"
           >
             <img
               class="lg:mx-auto"
@@ -201,7 +199,7 @@
             />
           </div>
           <div
-            class="lg:text-left lg:flex-grow-1 lg:flex-shrink-1 lg:w-1/2 delay-250 enter-right distance-350 ease"
+            class="lg:text-left lg:flex-grow-1 lg:flex-shrink-1 lg:w-1/2 delay-250 enter-right distance-135 ease"
           >
             <h2 class="mb-5 font-poppins text-xl lg:text-3xl xl:text-4xl">
               Flowing Conversations
@@ -242,7 +240,7 @@
           class="pt-5 pb-28 text-center lg:flex lg:items-center lg:px-28 lg:gap-16 lg:pt-8 lg:pb-12 xl:w-xl-container xl:px-0 xl:pb-11 xl:mx-auto"
         >
           <div
-            class="w-full px-14 mb-20 lg:order-1 lg:flex-grow-1 lg:flex-shrink-1 lg:w-1/2 lg:px-0 lg:mb-0 delay-250 enter-right distance-350 ease"
+            class="w-full px-14 mb-20 lg:order-1 lg:flex-grow-1 lg:flex-shrink-1 lg:w-1/2 lg:px-0 lg:mb-0 delay-250 enter-right distance-135 ease"
           >
             <img
               class="lg:mx-auto"
@@ -251,7 +249,7 @@
             />
           </div>
           <div
-            class="lg:text-left lg:flex-grow-1 lg:flex-shrink-1 lg:w-1/2 lg:px-0 delay-250 enter-left distance-350 ease"
+            class="lg:text-left lg:flex-grow-1 lg:flex-shrink-1 lg:w-1/2 lg:px-0 delay-250 enter-left distance-135 ease"
           >
             <h2 class="mb-5 font-poppins text-xl lg:text-3xl xl:text-4xl">
               Your Users
@@ -339,16 +337,28 @@
           </div>
           <div class="lg:flex gap-6 xl:gap-8">
             <!-- EMAIL INPUT -->
-            <input
-              class="w-full h-12 mb-4 rounded lg:w-3/4 lg:flex-grow-1 lg:flex-shrink-1 lg:h-10"
-              type="email"
-            />
+            <form
+              id="my-form"
+              class="w-full mb-4 lg:flex-grow-1 lg:flex-shrink-1 lg:w-3/4"
+              action=""
+              method="post"
+            >
+              <input
+                class="w-full h-12 pl-3 rounded text-[#00262F] text-sm lg:h-10"
+                type="email"
+                placeholder="example@email.com"
+                required
+                oninvalid="this.setCustomValidity('Enter User Name Here')"
+                oninput="this.setCustomValidity('')"
+              />
+            </form>
+            <!-- SUBSCRIBE BUTTON -->
             <div
               class="mb-24 text-right lg:w-1/4 lg:flex-grow-1 lg:flex-shrink-1 lg:text-left"
             >
-              <!-- SUBSCRIBE BUTTON -->
               <button
                 class="px-10 py-3 bg-primary-pink hover:bg-light-pink rounded font-semibold lg:px-8 lg:py-2.5 lg:text-sm"
+                form="my-form"
               >
                 Subscribe
               </button>
