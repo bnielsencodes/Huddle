@@ -1022,28 +1022,12 @@ video {
     justify-content: space-between;
   }
 
-  .md\:gap-28{
-    gap: 7rem;
+  .md\:gap-24{
+    gap: 6rem;
   }
 
   .md\:gap-12{
     gap: 3rem;
-  }
-
-  .md\:gap-10{
-    gap: 2.5rem;
-  }
-
-  .md\:gap-16{
-    gap: 4rem;
-  }
-
-  .md\:gap-20{
-    gap: 5rem;
-  }
-
-  .md\:gap-24{
-    gap: 6rem;
   }
 
   .md\:px-8{
@@ -1278,7 +1262,11 @@ video {
   }
 
   .xl\:w-xl-p{
-    width: 525px;
+    width: 589px;
+  }
+
+  .xl\:w-64{
+    width: 16rem;
   }
 
   .xl\:w-12{
@@ -1286,7 +1274,7 @@ video {
   }
 
   .xl\:w-xl-container{
-    width: 1152px;
+    width: 1440px;
   }
 
   .xl\:w-medium-p{
@@ -1305,28 +1293,12 @@ video {
     width: 20rem;
   }
 
-  .xl\:w-48{
-    width: 12rem;
-  }
-
-  .xl\:w-52{
-    width: 13rem;
-  }
-
-  .xl\:w-60{
-    width: 15rem;
-  }
-
-  .xl\:w-64{
-    width: 16rem;
+  .xl\:gap-0{
+    gap: 0px;
   }
 
   .xl\:gap-32{
     gap: 8rem;
-  }
-
-  .xl\:gap-0{
-    gap: 0px;
   }
 
   .xl\:gap-8{
@@ -1346,11 +1318,6 @@ video {
   .xl\:py-5{
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
-  }
-
-  .xl\:px-0{
-    padding-left: 0px;
-    padding-right: 0px;
   }
 
   .xl\:pt-16{
