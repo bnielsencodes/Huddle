@@ -27,8 +27,7 @@ Users should be able to:
 ### Screenshot
 
 ![screenshot of Huddle website](assets/screenshots/Huddle.png)
-<img src="assets/screenshots/Huddle.png" width="300">
-![screenshot of Huddle mobile website](assets/screenshots/Huddle_Mobile.png)
+<img src="assets/screenshots/Huddle_Mobile.png" alt="screenshot of Huddle mobile website" width="500">
 
 ### Links
 
