@@ -26,8 +26,10 @@ Users should be able to:
 
 ### Screenshot
 
+#### Desktop
 ![screenshot of Huddle website](assets/screenshots/Huddle.png)
-<img src="assets/screenshots/Huddle_Mobile.png" alt="screenshot of Huddle mobile website" width="500">
+#### Mobile
+<img src="assets/screenshots/Huddle_Mobile.png" alt="screenshot of Huddle mobile website" width="300">
 
 ### Links
 
