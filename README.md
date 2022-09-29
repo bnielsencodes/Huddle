@@ -37,7 +37,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/bnielsencodes/Huddle](https://github.com/bnielsencodes/Huddle)
-- Live Site URL: [https://bnielsen.dev/Huddle] (https://bnielsen.dev/Huddle)
+- Live Site URL: [https://bnielsen.dev/Huddle](https://bnielsen.dev/Huddle)
 
 ## My process
 
