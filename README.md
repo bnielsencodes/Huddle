@@ -6,7 +6,7 @@ This is a solution to the [Huddle landing page with curved sections challenge on
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -27,8 +27,11 @@ Users should be able to:
 ### Screenshots
 
 #### Desktop
-![screenshot of Huddle website](assets/screenshots/Huddle.png)
+
+![screenshot of Huddle desktop website](assets/screenshots/Huddle.png)
+
 #### Mobile
+
 <img src="assets/screenshots/Huddle_Mobile.png" alt="screenshot of Huddle mobile website" width="300">
 
 ### Links
