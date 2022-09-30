@@ -1,6 +1,7 @@
 ScrollReveal().reveal(".delay-200", { delay: 200 });
 ScrollReveal().reveal(".delay-225", { delay: 225 });
 ScrollReveal().reveal(".delay-250", { delay: 250 });
+ScrollReveal().reveal(".delay-300", { delay: 300 });
 ScrollReveal().reveal(".delay-450", { delay: 450 });
 ScrollReveal().reveal(".delay-700", { delay: 700 });
 ScrollReveal().reveal(".enter-top", { origin: "top" });
