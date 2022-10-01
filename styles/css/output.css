@@ -786,6 +786,10 @@ video {
   padding-right: 0.75rem;
 }
 
+.pt-8{
+  padding-top: 2rem;
+}
+
 .text-center{
   text-align: center;
 }
@@ -1191,6 +1195,10 @@ video {
     padding-bottom: 3rem;
   }
 
+  .lg\:pt-10{
+    padding-top: 2.5rem;
+  }
+
   .lg\:text-left{
     text-align: left;
   }
@@ -1324,6 +1332,11 @@ video {
     padding-bottom: 1.25rem;
   }
 
+  .xl\:py-6{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
   .xl\:pt-16{
     padding-top: 4rem;
   }
@@ -1346,6 +1359,10 @@ video {
 
   .xl\:pr-12{
     padding-right: 3rem;
+  }
+
+  .xl\:pt-24{
+    padding-top: 6rem;
   }
 
   .xl\:text-base{
