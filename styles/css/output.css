@@ -1092,6 +1092,10 @@ video {
     margin-top: 10rem;
   }
 
+  .lg\:mb-36{
+    margin-bottom: 9rem;
+  }
+
   .lg\:block{
     display: block;
   }
@@ -1259,6 +1263,10 @@ video {
 
   .xl\:mb-16{
     margin-bottom: 4rem;
+  }
+
+  .xl\:mb-60{
+    margin-bottom: 15rem;
   }
 
   .xl\:block{
