@@ -998,6 +998,10 @@ video {
     margin-bottom: 11rem;
   }
 
+  .md\:mb-48{
+    margin-bottom: 12rem;
+  }
+
   .md\:flex{
     display: flex;
   }
@@ -1191,6 +1195,14 @@ video {
     padding-bottom: 3rem;
   }
 
+  .lg\:pl-24{
+    padding-left: 6rem;
+  }
+
+  .lg\:pr-32{
+    padding-right: 8rem;
+  }
+
   .lg\:text-left{
     text-align: left;
   }
@@ -1297,6 +1309,10 @@ video {
     width: 20rem;
   }
 
+  .xl\:w-60{
+    width: 15rem;
+  }
+
   .xl\:gap-0{
     gap: 0px;
   }
@@ -1347,6 +1363,18 @@ video {
 
   .xl\:pr-12{
     padding-right: 3rem;
+  }
+
+  .xl\:pb-10{
+    padding-bottom: 2.5rem;
+  }
+
+  .xl\:pl-20{
+    padding-left: 5rem;
+  }
+
+  .xl\:pr-16{
+    padding-right: 4rem;
   }
 
   .xl\:text-base{
