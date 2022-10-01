@@ -21,7 +21,7 @@ module.exports = {
         "medium-p": "448px",
         "large-p": "468px",
         "xl-p": "589px",
-        "xl-container": "1440px",
+        "xl-container": "1360px",
       },
     },
     screens: {
