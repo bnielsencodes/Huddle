@@ -1,8 +1,8 @@
-# Frontend Mentor - Huddle landing page with curved sections solution
+# Frontend Mentor - Huddle Landing Page with Curved Sections Solution
 
 This is a solution to the [Huddle landing page with curved sections challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-curved-sections-5ca5ecd01e82137ec91a50f2). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Table of contents
+## Table of Contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
@@ -17,7 +17,7 @@ This is a solution to the [Huddle landing page with curved sections challenge on
 
 ## Overview
 
-### The challenge
+### The Challenge
 
 Users should be able to:
 
@@ -39,7 +39,7 @@ Users should be able to:
 - Solution URL: [https://github.com/bnielsencodes/Huddle](https://github.com/bnielsencodes/Huddle)
 - Live Site URL: [https://bnielsen.dev/Huddle](https://bnielsen.dev/Huddle)
 
-## My process
+## My Process
 
 ### Built with
 
@@ -49,17 +49,17 @@ Users should be able to:
 - ScrollReveal.js
 - Mobile-first workflow
 
-### What I learned
+### What I Learned
 
 This was the first time I worked with Tailwind CSS. I was surprised how easy and seemless things were to learn when you already have a good basic understanding of CSS. Really, the hardest part was figuring out how to setup a project with Tailwind, which in and of itself wasn't that challenging overall. Once things were set up, it was a breeze from there.
 
 This was also the first time I worked with ScrollReveal.js. i like the simplicity of the tool, but I was facing the issue of elements that were entering off-screen were causing the page width to increase before the animation would occur. I fixed this by making the entering elements start just onscreen, which was unfortunate because i really liked the look of the animation coming from off-screen. From my experience, it seems more limited than using the Intersection Observer API, but still has its purpose.
 
-### Continued development
+### Continued Development
 
 I really wanted to use React with this project, but am not comfortable enough with it yet so I stuck to HTML, Tailwind CSS, and vanilla JavaScript. I plan on continuing to improve my React skills and knowledge so I can feel more confident to use it on future projects.
 
-### Useful resources
+### Useful Resources
 
 - [Official Tailwind CSS Documentation](https://tailwindcss.com/docs/installation)
 - [An interactive and searchable Tailwind CSS cheat sheet](https://nerdcave.com/tailwind-cheat-sheet) - This website is a great resource for those who are both new to and experienced in Tailwind CSS. You can input a CSS property and it will show you what the equivalent property is in Tailwind CSS.
@@ -67,5 +67,6 @@ I really wanted to use React with this project, but am not comfortable enough wi
 ## Author
 
 - Website - [Brandon Nielsen](https://www.bnielsen.dev)
-- Frontend Mentor - [@bnielsencodes](https://www.frontendmentor.io/profile/bnielsencodes)
+- LinkedIn - [Brandon Nielsen](https://www.linkedin.com/in/bnielsencodes)
 - Twitter - [@bnielsencodes](https://twitter.com/bnielsencodes)
+- Frontend Mentor - [@bnielsencodes](https://www.frontendmentor.io/profile/bnielsencodes)
